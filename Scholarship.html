@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Scholarship Search Platform</title>
+    <link rel="stylesheet" href="Scholarship.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Any  Scholarship Search</h1>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search Scholarships...">
+            <button>Search</button>
+        </div>
+
+        <div class="filter-section">
+            <div>
+                <label for="degree">Degree Level:</label>
+                <select id="degree">
+                    <option value="bsc">BSc</option>
+                    <option value="ms">MS</option>
+                    <option value="phd">PhD</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="country">City:</label>
+                <select id="country">
+                    <option value="usa">Mardan</option>
+                    <option value="uk">Peshawar</option>
+                    <option value="germany">Islamabad</option>
+                    <option value="canada">Karachi</option>
+                    <option value="australia">Lahore</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="ranking">University Ranking:</label>
+                <select id="ranking">
+                    <option value="top100">Top 100</option>
+                    <option value="top500">Top 500</option>
+                    <option value="top1000">Top 1000</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="funding">Funding Type:</label>
+                <select id="funding">
+                    <option value="full">Full</option>
+                    <option value="partial">Partial</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="program">Program:</label>
+                <select id="program">
+                    <option value="medical">Medical</option>
+                    <option value="it">IT</option>
+                    <option value="it">Software Engineering</option>
+                    <option value="it">Mechinal Engineering</option>
+                    <option value="cs">Electrical Engineering</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="civil">Civil Engineering</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="scholarship-list">
+            <div class="scholarship-item">
+                <h3>Scholarship 1 - University A</h3>
+                <p>Full Funding, PhD, Mardan</p>
+                <p>Deadline: 31st December 2024</p>
+            </div>
+
+            <div class="scholarship-item">
+                <h3>Scholarship 2 - University B</h3>
+                <p>Partial Funding, MS, Peshawar</p>
+                <p>Deadline: 15th January 2025</p>
+            </div>
+
+            <div class="scholarship-item">
+                <h3>Scholarship 3 - University C</h3>
+                <p>Full Funding, BSc, Swat</p>
+                <p>Deadline: 1st February 2025</p>
+            </div>
+        </div>
+
+        <a href="#profile" class="dashboard-btn">Go to Dashboard</a>
+
+        <!-- User Dashboard Section -->
+        <div id="profile" class="profile-section">
+            <h2>User Profile</h2>
+            <div class="info">
+                <strong>Name:</strong> Akbar Ali
+            </div>
+            <div class="info">
+                <strong>Email:</strong> akbaraliuetm136@gmail.com
+            </div>
+            <div class="info">
+                <strong>City:</strong> Mardan
+            </div>
+            <div class="info">
+                <strong>Degree Level:</strong> MS
+            </div>
+            <div class="info">
+                <strong>Preferred Program:</strong> Computer Science
+            </div>
+            <div class="info">
+                <strong>Applied Scholarships:</strong>
+                <ul>
+                    <li>Scholarship 1 - University A</li>
+                    <li>Scholarship 2 - University B</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Abkar ali Scholarship  Platform</p>
+    </footer>
+</body>
+
+<script src="Scholarship.js"></script>
+</html>
